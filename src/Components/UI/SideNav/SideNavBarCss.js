@@ -8,12 +8,19 @@ const SideNav = styled.nav`
   z-index: 1;
   top: 0;
   left: 0;
+  height: 1000px;
+  width: 1000px;
+  color: white;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
 
   .SideNavBox {
+    
+  }
+
+  .skillList-item {
     
   }
 
