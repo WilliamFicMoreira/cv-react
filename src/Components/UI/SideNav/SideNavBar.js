@@ -22,7 +22,7 @@ const SideNavBar = () => {
         <div className="skillList">
 
           <div className="skillList-item"> Javascript
-            <ProgressBar key={1} bgcolor={"#6a1b9a"} completed={25} />
+            <ProgressBar key={1} bgcolor={"#6a1b9a"} completed={75} />
           </div>
 
         </div>
