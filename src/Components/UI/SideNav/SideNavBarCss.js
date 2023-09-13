@@ -20,8 +20,17 @@ const SideNav = styled.nav`
     
   }
 
+  .skillList {
+    padding: 1rem;
+    background-color: #deddd9;
+    width: 60%;
+    color: black;
+    font-weight: 700;
+  }
+
   .skillList-item {
-    
+    margin: 0;
+    padding: 0;
   }
 
   .CloseButton{
