@@ -20,6 +20,10 @@ const SideNav = styled.nav`
     
   }
 
+  .persona-image{
+    max-height: 25rem;
+  }
+
   .skillList {
     padding: 1rem;
     background-color: #deddd9;
