@@ -15,7 +15,7 @@ const NavBar = () => {
         <div className="Menu">
           <ul className="MenuLista">
             <li className="MenuListaBotao-1">Home</li>
-            <li className="MenuListaBotao-2">TESTESTESTESE</li>
+            <li className="MenuListaBotao-2">teste</li>
             <li className="MenuListaBotao-1">item 3</li>
             <li className="MenuListaBotao-2">item 4</li>
             <li className="MenuListaBotao-1">item 5</li>

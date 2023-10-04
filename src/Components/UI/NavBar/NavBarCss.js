@@ -11,11 +11,10 @@ const Nav = styled.nav`
   background-color: #D92938;
   justify-content: center;
 
- 
-
   .NavBox {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0.6rem 0;
+    font-size: 2.2rem;
+    font-family: Persona;
+    margin: 0.5rem 0;
     /* padding: 1rem; */
     display: flex;
     flex: 1;
@@ -58,12 +57,12 @@ const Nav = styled.nav`
   }
 
   .Menu {
-
     .MenuLista {
       display: flex;
+      align-items: center;
+      jusify-content: center;
       list-style: none;
       padding: 0 0.5rem;
-      font-family: Persona;
       li {
         margin: 1rem;
         padding: 0.1rem 1rem;
@@ -73,7 +72,6 @@ const Nav = styled.nav`
         box-shadow: 0.6rem 0.7rem;
         border: solid 0.15rem black;
         cursor: pointer;
-        font-family: Persona;
 
         :hover {
           background-color: black;
