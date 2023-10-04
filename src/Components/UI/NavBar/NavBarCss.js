@@ -72,6 +72,7 @@ const Nav = styled.nav`
         box-shadow: 0.6rem 0.7rem;
         border: solid 0.15rem black;
         cursor: pointer;
+        background-color: white;
 
         :hover {
           background-color: black;
@@ -95,6 +96,7 @@ const Nav = styled.nav`
         box-shadow: 0.6rem 0.7rem;
         border: solid 0.15rem black;
         cursor: pointer;
+        background-color: white;
 
         :hover {
           background-color: black;
