@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+// import PersonaFont from "../../Fonts/persona-5-menu-font-prototype/Persona5MenuFontPrototype-Regular.ttf"
+
 
 const Nav = styled.nav`
   margin: 0;
@@ -8,6 +10,8 @@ const Nav = styled.nav`
   flex-direction: row;
   background-color: #D92938;
   justify-content: center;
+
+ 
 
   .NavBox {
     font-family: Arial, Helvetica, sans-serif;
@@ -53,30 +57,23 @@ const Nav = styled.nav`
     }
   }
 
-  .Author {
-    padding: 0.2rem;
-    /* border: solid 0.15rem black; */
-    img {
-      max-height: 7rem;
-      border-radius: 50%;
-    }
-  }
-
   .Menu {
 
     .MenuLista {
       display: flex;
       list-style: none;
       padding: 0 0.5rem;
+      font-family: Persona;
       li {
         margin: 1rem;
         padding: 0.1rem 1rem;
       }
 
-      .MenuListaItem1 {
+      .MenuListaBotao-1 {
         box-shadow: 0.6rem 0.7rem;
         border: solid 0.15rem black;
         cursor: pointer;
+        font-family: Persona;
 
         :hover {
           background-color: black;
@@ -96,7 +93,7 @@ const Nav = styled.nav`
         
       }
 
-      .MenuListaItem2 {
+      .MenuListaBotao-2 {
         box-shadow: 0.6rem 0.7rem;
         border: solid 0.15rem black;
         cursor: pointer;
@@ -106,75 +103,6 @@ const Nav = styled.nav`
           color: white;
           border: solid 0.15rem white;
           transform: rotate(-5deg);
-          transition-delay: 70ms;
-          transition-property: transform;
-        }
-
-        :active {
-          transform: translateY(0.2rem);
-          box-shadow: 0.4rem 0.5rem;
-          transition-delay: 0ms;
-          transition-property: transform;
-        }
-        
-      }
-
-      .MenuListaItem3 {
-        box-shadow: 0.6rem 0.7rem;
-        border: solid 0.15rem black;
-        cursor: pointer;
-
-        :hover {
-          background-color: black;
-          color: white;
-          border: solid 0.15rem white;
-          transform: rotate(5deg);
-          transition-delay: 70ms;
-          transition-property: transform;
-        }
-
-        :active {
-          transform: translateY(0.2rem);
-          box-shadow: 0.4rem 0.5rem;
-          transition-delay: 0ms;
-          transition-property: transform;
-        }
-        
-      }
-
-      .MenuListaItem4 {
-        box-shadow: 0.6rem 0.7rem;
-        border: solid 0.15rem black;
-        cursor: pointer;
-
-        :hover {
-          background-color: black;
-          color: white;
-          border: solid 0.15rem white;
-          transform: rotate(-5deg);
-          transition-delay: 70ms;
-          transition-property: transform;
-        }
-
-        :active {
-          transform: translateY(0.2rem);
-          box-shadow: 0.4rem 0.5rem;
-          transition-delay: 0ms;
-          transition-property: transform;
-        }
-        
-      }
-
-      .MenuListaItem5 {
-        box-shadow: 0.6rem 0.7rem;
-        border: solid 0.15rem black;
-        cursor: pointer;
-
-        :hover {
-          background-color: black;
-          color: white;
-          border: solid 0.15rem white;
-          transform: rotate(5deg);
           transition-delay: 70ms;
           transition-property: transform;
         }

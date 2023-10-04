@@ -1,5 +1,6 @@
 import React from "react";
 import AboutMeCss from "./AboutMeCss";
+import Autor from "../../Images/cv-autor.jpg";
 
 const AboutMe = () => {
   return (
@@ -8,6 +9,11 @@ const AboutMe = () => {
         <h1> Sobre: </h1>
         {/* fazer css letra por letra igual o nome dos personagens no p5r no menu de confidant */}
         <h2>William Moreira</h2> 
+
+        <div className="Author">
+          <img src={Autor} alt="foto do autor"></img>
+        </div>
+
         <div className="speech top">
             Qui esse commodo sint exercitation ad. Quis minim reprehenderit culpa
             pariatur anim. Velit esse velit mollit proident nulla aute laboris.

@@ -8,8 +8,8 @@ const SideNav = styled.nav`
   z-index: 1;
   top: 0;
   left: 0;
-  height: 1000px;
-  width: 1000px;
+  height: 100vh;
+  width: 75vw;
   color: white;
   background-color: #111;
   overflow-x: hidden;
