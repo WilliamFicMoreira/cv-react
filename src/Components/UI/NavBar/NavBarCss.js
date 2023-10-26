@@ -43,7 +43,6 @@ const Nav = styled.nav`
     :hover {
       background-color: black;
       color: white;
-      border: solid 0.15rem white;
       transform: rotate(-5deg);
       transition-delay: 70ms;
       transition-property: transform;
@@ -79,10 +78,8 @@ const Nav = styled.nav`
 
         :hover {
           box-shadow: 0.6rem 0.7rem;
-          border: solid 0.15rem black;
           background-color: white;
           color: black;
-          border: solid 0.15rem white;
           transform: rotate(5deg);
           transition-delay: 70ms;
           transition-property: transform;
@@ -103,7 +100,6 @@ const Nav = styled.nav`
         :hover {
           background-color: black;
           color: white;
-          border: solid 0.15rem white;
           box-shadow: 0.6rem 0.7rem;
           transform: rotate(-5deg);
           transition-delay: 70ms;
