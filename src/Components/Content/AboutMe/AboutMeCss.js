@@ -16,7 +16,7 @@ const AboutMeCss = styled.section`
     img {
       max-height: 10rem;
       border-radius: 50%;
-      filter: grayscale(75%);
+      filter: grayscale(55%);
     }
   }
 

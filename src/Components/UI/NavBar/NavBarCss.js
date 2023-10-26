@@ -12,7 +12,7 @@ const Nav = styled.nav`
   justify-content: center;
 
   .NavBox {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-family: Persona;
     margin: 0.5rem 0;
     /* padding: 1rem; */
@@ -31,12 +31,13 @@ const Nav = styled.nav`
     cursor: pointer;
 
     img {
-      max-height: 3rem;
+      max-height: 4rem;
     }
 
     h5 {
       text-align: center;
       margin: 0;
+      display:none;
     }
 
     :hover {
@@ -46,6 +47,10 @@ const Nav = styled.nav`
       transform: rotate(-5deg);
       transition-delay: 70ms;
       transition-property: transform;
+
+        h5{
+          display: inline;
+        }
     }
 
     :active {
@@ -68,15 +73,15 @@ const Nav = styled.nav`
         padding: 0.1rem 1rem;
       }
 
-      .MenuListaBotao-1 {
-        box-shadow: 0.6rem 0.7rem;
-        border: solid 0.15rem black;
+      .MenuListaBotao-1 { 
         cursor: pointer;
-        background-color: white;
+        color: black;
 
         :hover {
-          background-color: black;
-          color: white;
+          box-shadow: 0.6rem 0.7rem;
+          border: solid 0.15rem black;
+          background-color: white;
+          color: black;
           border: solid 0.15rem white;
           transform: rotate(5deg);
           transition-delay: 70ms;
@@ -93,15 +98,13 @@ const Nav = styled.nav`
       }
 
       .MenuListaBotao-2 {
-        box-shadow: 0.6rem 0.7rem;
-        border: solid 0.15rem black;
         cursor: pointer;
-        background-color: white;
 
         :hover {
           background-color: black;
           color: white;
           border: solid 0.15rem white;
+          box-shadow: 0.6rem 0.7rem;
           transform: rotate(-5deg);
           transition-delay: 70ms;
           transition-property: transform;

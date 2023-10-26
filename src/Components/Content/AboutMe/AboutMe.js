@@ -1,6 +1,6 @@
 import React from "react";
 import AboutMeCss from "./AboutMeCss";
-import Autor from "../../Images/cv-autor.jpg";
+import Author from "../../Images/cv-autor.jpg";
 
 const AboutMe = () => {
   return (
@@ -11,7 +11,7 @@ const AboutMe = () => {
         <h2>William Moreira</h2> 
 
         <div className="Author">
-          <img src={Autor} alt="foto do autor"></img>
+          <img src={Author} alt="foto do autor"></img>
         </div>
 
         <div className="speech top">
