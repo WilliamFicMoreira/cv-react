@@ -29,15 +29,18 @@ const Nav = styled.nav`
     box-shadow: 0.6rem 0.7rem;
     border: solid 0.15rem black;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     img {
-      max-height: 4rem;
+      max-height: 5rem;
+      max-width: 10.5rem;
     }
 
     h5 {
       text-align: center;
       margin: 0;
-      display:none;
     }
 
     :hover {
