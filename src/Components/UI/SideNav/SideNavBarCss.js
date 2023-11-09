@@ -17,17 +17,20 @@ const SideNav = styled.nav`
   padding-top: 60px;
 
   .SideNavBox {
-    
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: flex-start;
   }
 
   .persona-image{
-    max-height: 25rem;
+    max-height: 20rem;
+    max-width: 30rem;
   }
 
   .skillList {
     padding: 1rem;
     background-color: #deddd9;
-    width: 60%;
+    width: 80%;
     color: black;
     font-weight: 700;
   }
@@ -43,6 +46,10 @@ const SideNav = styled.nav`
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+  }
+
+  .itemsList{
+    
   }
 
 `;
