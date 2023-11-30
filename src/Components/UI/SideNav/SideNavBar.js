@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import SideNav from "./SideNavBarCss";
 import ProgressBar from "../ProgressBar/ProgressBar";
 import Persona from "../../Images/P5RWilliam.webp";
@@ -10,7 +10,8 @@ const SideNavBar = () => {
       <div className="SideNavBox">
 
         <div className="CloseButton">
-          <button href="javascript:void(0)" class="closebtn" onClick={() => setShowNav(false)}>&times;</button>
+          <button href="javascript:void(0)" class="closebtn" onClick={() => setShowNav(false)}>&times;
+          </button>
         </div>
 
         <ul className="itemsList">
@@ -43,6 +44,5 @@ const SideNavBar = () => {
     </SideNav>
   );
 };
-
 
 export default SideNavBar;

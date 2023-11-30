@@ -1,16 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./NavBarCss";
 import SideNavButton from "../../Images/p5_joker_mask_vector.svg";
+import SideNavBar from "../SideNav/SideNavBar";
 
 const NavBar = () => {
+  const [isShown, setIsShown] = useState(false);
+
+  const handleClick = (event) => {
+    // 👇️ toggle shown state
+    setIsShown((current) => !current);
+
+    // 👇️ or simply set it to true
+    // setIsShown(true);
+  };
+
   return (
     <Nav>
       <div className="NavBox">
-        
-      <div className="SideNavButton">
-        <img src={SideNavButton} alt="React Logo" />
-        <h5>Persona Menu</h5>
-      </div> 
+        <div className="SideNavButton" onClick={handleClick}>
+          <img src={SideNavButton} alt="Logo" />
+          <h5>Persona Menu</h5>
+        </div>
+
+        {/* 👇️ show elements on click */}
+        {/* {isShown && (
+            // may add more elements here
+          )} */}
+
+        {/* 👇️ show component on click */}
+        {isShown && <SideNavBar />}
 
         <div className="Menu">
           <ul className="MenuLista">
