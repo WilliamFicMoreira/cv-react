@@ -8,13 +8,13 @@ const SideNav = styled.nav`
   z-index: 1;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 75vw;
+  height: 100%;
+  width: 80%;
   color: white;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  font: italic small-caps bold 1rem/1.2rem serif;
 
   .SideNavBox {
     display: flex;
@@ -23,7 +23,7 @@ const SideNav = styled.nav`
   }
 
   .persona-image{
-    max-height: 20rem;
+    max-height: 25rem;
     max-width: 30rem;
   }
 

@@ -17,6 +17,12 @@ const CoursesCss = styled.section`
     margin: 1.5rem;
     /* filter:drop-shadow(0px 30px 25px rgba(236, 0, 244, 0.45)); */
   }
+
+  h1{
+    font-family: Persona;
+    font-size: 3rem;
+  }
+
   .CoursesItemBox:before,
   .CoursesItemBox:after {
     content: "";

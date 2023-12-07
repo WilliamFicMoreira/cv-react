@@ -19,7 +19,7 @@ const NavBar = () => {
       <div className="NavBox">
         <div className="SideNavButton" onClick={handleClick}>
           <img src={SideNavButton} alt="Logo" />
-          <h5>Persona Menu</h5>
+          <h5>Menu</h5>
         </div>
 
         {/* 👇️ show elements on click */}

@@ -11,6 +11,11 @@ const ExperiencesCss = styled.section`
     border: 0.3rem solid white;
   } */
 
+  h1{
+    font-family: Persona;
+    font-size: 3rem;
+  }
+
   .ExperiencesItemBox {
     padding: 2.2rem 3.3rem;
     font-size: 1.1rem;

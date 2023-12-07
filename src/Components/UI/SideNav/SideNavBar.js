@@ -38,6 +38,14 @@ const SideNavBar = () => {
             <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={80} />
           </div>
 
+          <div className="skillList-item"> SQL
+            <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={80} />
+          </div>
+
+          <div className="skillList-item"> SQL
+            <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={80} />
+          </div>
+
         </div>
 
       </div>

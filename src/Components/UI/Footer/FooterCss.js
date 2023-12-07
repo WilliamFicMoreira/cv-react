@@ -10,6 +10,11 @@ const FooterCss = styled.footer`
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-weight: 400;
 
+ h2{
+    font-family: Persona;
+    font-size: 2rem;
+ }
+
  .footerList{
     margin: 0;
     padding: 2rem;

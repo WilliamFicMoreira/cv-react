@@ -23,6 +23,8 @@ const AboutMeCss = styled.section`
   h1 {
     /* color: blue; */
     text-align: center;
+    font-family: Persona;
+    font-size: 3rem;
   }
 
   h2 {

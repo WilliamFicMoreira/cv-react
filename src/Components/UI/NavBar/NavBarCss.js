@@ -12,7 +12,7 @@ const Nav = styled.nav`
   justify-content: center;
 
   .NavBox {
-    font-size: 2.6rem;
+    font-size: 2.0rem;
     font-family: Persona;
     margin: 0.5rem 0;
     /* padding: 1rem; */
@@ -32,10 +32,11 @@ const Nav = styled.nav`
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 2.5rem;
 
     img {
-      max-height: 5rem;
-      max-width: 10.5rem;
+      max-height: 4rem;
+      max-width: 10rem;
     }
 
     h5 {
@@ -78,7 +79,6 @@ const Nav = styled.nav`
       .MenuListaBotao-1 { 
         cursor: pointer;
         color: black;
-
         :hover {
           box-shadow: 0.6rem 0.7rem;
           background-color: white;
