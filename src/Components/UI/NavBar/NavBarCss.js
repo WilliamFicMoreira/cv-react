@@ -79,7 +79,10 @@ const Nav = styled.nav`
       .MenuListaBotao-1 { 
         cursor: pointer;
         color: black;
+        border: solid black 0.12rem;
+        box-shadow: 0.4rem 0.5rem;
         :hover {
+          border: none;
           box-shadow: 0.6rem 0.7rem;
           background-color: white;
           color: black;
@@ -99,14 +102,18 @@ const Nav = styled.nav`
 
       .MenuListaBotao-2 {
         cursor: pointer;
-
+        border: solid black 0.12rem;
+        box-shadow: 0.4rem 0.5rem;
         :hover {
+          border: none;
           background-color: black;
           color: white;
           box-shadow: 0.6rem 0.7rem;
           transform: rotate(-5deg);
           transition-delay: 70ms;
           transition-property: transform;
+          animation: tiltBounceAlt .15s ease;
+         animation-fill-mode: forwards;
         }
 
         :active {
@@ -115,6 +122,8 @@ const Nav = styled.nav`
           transition-delay: 0ms;
           transition-property: transform;
         }
+
+        
         
       }
       
