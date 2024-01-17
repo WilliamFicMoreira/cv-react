@@ -1,42 +1,41 @@
 import React from "react";
 import styled from "styled-components";
-// import PersonaFont from "../../Fonts/persona-5-menu-font-prototype/Persona5MenuFontPrototype-Regular.ttf"
 
 
 const Nav = styled.nav`
   margin: 0;
-  padding: 0.5rem 0;
+  padding: 0.45rem 0;
   display: flex;
   flex-direction: row;
   background-color: #D92938;
   justify-content: center;
 
   .NavBox {
-    font-size: 2.0rem;
+    font-size: 1.25rem;
     font-family: Persona;
+    font-weight: bold;
     margin: 0.5rem 0;
     /* padding: 1rem; */
     display: flex;
     flex: 1;
-    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
   }
 
   .SideNavButton {
-    padding: 0.5rem;
+    padding: 0.3rem;
     margin-right: 1rem;
     margin-left: 0.5rem;
-    box-shadow: 0.6rem 0.7rem;
-    border: solid 0.15rem black;
+    
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 1.35rem;
 
     img {
-      max-height: 4rem;
-      max-width: 10rem;
+      max-height: 5rem;
+      max-width: 6rem;
     }
 
     h5 {
@@ -45,8 +44,9 @@ const Nav = styled.nav`
     }
 
     :hover {
-      background-color: black;
-      color: white;
+      background-color: white;
+      color: black;
+      box-shadow: 0.6rem 0.7rem black;
       transform: rotate(-5deg);
       transition-delay: 70ms;
       transition-property: transform;
@@ -79,8 +79,6 @@ const Nav = styled.nav`
       .MenuListaBotao-1 { 
         cursor: pointer;
         color: black;
-        border: solid black 0.12rem;
-        box-shadow: 0.4rem 0.5rem;
         :hover {
           border: none;
           box-shadow: 0.6rem 0.7rem;
@@ -102,8 +100,6 @@ const Nav = styled.nav`
 
       .MenuListaBotao-2 {
         cursor: pointer;
-        border: solid black 0.12rem;
-        box-shadow: 0.4rem 0.5rem;
         :hover {
           border: none;
           background-color: black;
