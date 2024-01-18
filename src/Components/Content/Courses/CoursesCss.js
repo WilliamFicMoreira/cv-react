@@ -3,7 +3,9 @@ import styled from "styled-components";
 
 const CoursesCss = styled.section`
     display: flex;
-    margin: 3.5rem;
+    padding: 3rem;
+    margin: 2rem 0.5rem;
+    background-color: #400101;
 
     .CoursesItemBox {
     padding: 2.2rem 3.3rem;
@@ -19,7 +21,7 @@ const CoursesCss = styled.section`
   }
 
   h1{
-    font-family: Persona;
+    font-family: Teko;
     font-size: 3rem;
   }
 

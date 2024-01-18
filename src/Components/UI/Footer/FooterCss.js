@@ -4,7 +4,7 @@ import styled from "styled-components";
 const FooterCss = styled.footer`
  margin: 0;
  padding: 1rem;
- background-color:#D92938;
+ background-color:#dd0200;
  display: flex;
  justify-content: center;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

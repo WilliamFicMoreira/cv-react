@@ -7,7 +7,7 @@ const Main = styled.main`
   margin: 0;
   padding: 0;
   color: lightgray;
-  background: black;
+  background: #0D0D0D;
   overflow: hidden; // removes whitespace from top and bottom
 `;
 

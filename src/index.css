@@ -16,3 +16,13 @@ code {
   font-family: Persona;
   src: url('../src/Components/Fonts/Persona-5-Font/Persona5main.ttf');
 }
+
+@font-face {
+  font-family: Teko;
+  src: url('../src/Components/Fonts/Teko/Teko-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Anton;
+  src: url('../src/Components/Fonts/Anton/Anton-Regular.ttf');
+}

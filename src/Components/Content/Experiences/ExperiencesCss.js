@@ -3,8 +3,10 @@ import styled from "styled-components";
 
 const ExperiencesCss = styled.section`
   display: flex;
-  margin: 3.5rem;
-
+  padding: 3rem;
+  margin: 2rem 0.5rem;
+  background-color: #590202;
+  
   /* .ExperiencesItemBox {
     margin-bottom: 3rem;
     padding: 1rem;
@@ -12,7 +14,7 @@ const ExperiencesCss = styled.section`
   } */
 
   h1{
-    font-family: Persona;
+    font-family: Teko;
     font-size: 3rem;
   }
 

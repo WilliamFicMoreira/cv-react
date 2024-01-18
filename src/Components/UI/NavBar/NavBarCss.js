@@ -7,7 +7,7 @@ const Nav = styled.nav`
   padding: 0.45rem 0;
   display: flex;
   flex-direction: row;
-  background-color: #D92938;
+  background-color: #dd0200;
   justify-content: center;
 
   .NavBox {
@@ -15,7 +15,6 @@ const Nav = styled.nav`
     font-family: Persona;
     font-weight: bold;
     margin: 0.5rem 0;
-    /* padding: 1rem; */
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -46,7 +45,7 @@ const Nav = styled.nav`
     :hover {
       background-color: white;
       color: black;
-      box-shadow: 0.6rem 0.7rem black;
+      box-shadow: 0.55rem 0.3rem black;
       transform: rotate(-5deg);
       transition-delay: 70ms;
       transition-property: transform;
@@ -58,7 +57,7 @@ const Nav = styled.nav`
 
     :active {
       transform: translateY(0.2rem);
-      box-shadow: 0.4rem 0.5rem;
+      box-shadow: 0.3rem 0.2rem;
       transition-delay: 0ms;
       transition-property: transform;
     }
@@ -73,7 +72,7 @@ const Nav = styled.nav`
       padding: 0 0.5rem;
       li {
         margin: 1rem;
-        padding: 0.1rem 1rem;
+        padding: 0.2rem 0.5rem;
       }
 
       .MenuListaBotao-1 { 
@@ -81,7 +80,7 @@ const Nav = styled.nav`
         color: black;
         :hover {
           border: none;
-          box-shadow: 0.6rem 0.7rem;
+          box-shadow: 0.4rem 0.5rem;
           background-color: white;
           color: black;
           transform: rotate(5deg);
@@ -91,7 +90,7 @@ const Nav = styled.nav`
 
         :active {
           transform: translateY(0.2rem);
-          box-shadow: 0.4rem 0.5rem;
+          box-shadow: 0.3rem 0.4rem;
           transition-delay: 0ms;
           transition-property: transform;
         }
@@ -104,7 +103,7 @@ const Nav = styled.nav`
           border: none;
           background-color: black;
           color: white;
-          box-shadow: 0.6rem 0.7rem;
+          box-shadow: 0.45rem 0.5rem;
           transform: rotate(-5deg);
           transition-delay: 70ms;
           transition-property: transform;
@@ -114,7 +113,7 @@ const Nav = styled.nav`
 
         :active {
           transform: translateY(0.2rem);
-          box-shadow: 0.4rem 0.5rem;
+          box-shadow: 0.35rem 0.3rem;
           transition-delay: 0ms;
           transition-property: transform;
         }
