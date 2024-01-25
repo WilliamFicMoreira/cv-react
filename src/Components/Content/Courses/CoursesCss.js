@@ -19,6 +19,27 @@ const CoursesCss = styled.section`
     margin: 1.5rem;
     /* filter:drop-shadow(0px 30px 25px rgba(236, 0, 244, 0.45)); */
   }
+  
+  .CoursesItemBoxIn{
+    padding: 0 0 1.2rem 1.2rem;
+    border-left: 0.15rem solid white;
+    position: relative;
+  }
+
+  .CoursesItemBoxIn::before {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: -0.7rem;
+    top: 0.65rem;
+    border-radius: 50px;
+    background: rgb(31, 31, 31);
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+}
 
   h1{
     font-family: Teko;

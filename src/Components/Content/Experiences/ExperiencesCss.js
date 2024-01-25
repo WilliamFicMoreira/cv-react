@@ -48,6 +48,27 @@ const ExperiencesCss = styled.section`
     transform: scale(1.02, 1.12);
   }
 
+  .ExperiencesItemBoxIn{
+    padding: 0 0 1.2rem 1.2rem;
+    border-left: 0.15rem solid white;
+    position: relative;
+  }
+
+  .ExperiencesItemBoxIn::before {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: -0.7rem;
+    top: 0.65rem;
+    border-radius: 50px;
+    background: rgb(31, 31, 31);
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+}
+
   /* fazer animacao abaixo */
 
   /* .ExperiencesItemBox:hover:before,
