@@ -6,15 +6,15 @@ const AboutMe = () => {
   return (
     <AboutMeCss>
       <section>
-        <h1> Sobre: </h1>
+        <h1> Sobre... </h1>
         {/* fazer css letra por letra igual o nome dos personagens no p5r no menu de confidant */}
 
-        {/* descomentar abaixo
+        {/* descomentar abaixo */}
         <h2>William Moreira</h2> 
 
         <div className="Author">
           <img src={Author} alt="foto do autor"></img>
-        </div> */}
+        </div>
 
         <div className="speech top">
             Qui esse commodo sint exercitation ad. Quis minim reprehenderit culpa
