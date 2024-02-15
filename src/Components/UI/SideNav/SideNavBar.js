@@ -3,8 +3,8 @@ import SideNav from "./SideNavBarCss";
 import ProgressBar from "../ProgressBar/ProgressBar";
 import Persona from "../../Images/P5RWilliam.webp";
 
-const SideNavBar = () => {
-  const [showNav, setShowNav] = useState(true);
+const SideNavBar = ({showNav, setShowNav}) => {
+  
   return (
     <SideNav style={{ display: showNav ? 'initial' : 'none' }}>
       <div className="SideNavBox">

@@ -6,29 +6,17 @@ import SideNavBar from "../SideNav/SideNavBar";
 const NavBar = () => {
   const [isShown, setIsShown] = useState(false);
 
-  const handleClick = (event) => {
-    // 👇️ toggle shown state
-    setIsShown((current) => !current);
-
-    // 👇️ or simply set it to true
-    // setIsShown(true);
-  };
-
   return (
     <Nav>
       <div className="NavBox">
-        <div className="SideNavButton" onClick={handleClick}>
+        {/* Botão para controlorar o state */}
+        <div className="SideNavButton" onClick={() => setIsShown(!isShown)}>
           <img src={SideNavButton} alt="Logo" />
           <h5>Menu</h5>
         </div>
 
-        {/* 👇️ show elements on click */}
-        {/* {isShown && (
-            // may add more elements here
-          )} */}
-
-        {/* 👇️ show component on click */}
-        {isShown && <SideNavBar />}
+        {/* Passa o state como props para o sidenavbar */}
+        <SideNavBar showNav={isShown} setShowNav={setIsShown}/>
 
         <div className="Menu">
           <ul className="MenuLista">
