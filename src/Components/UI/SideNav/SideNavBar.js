@@ -4,9 +4,10 @@ import ProgressBar from "../ProgressBar/ProgressBar";
 import Persona from "../../Images/P5RWilliam.webp";
 
 const SideNavBar = ({showNav, setShowNav}) => {
-  
+
   return (
-    <SideNav style={{ display: showNav ? 'initial' : 'none' }}>
+    // mudar de "inline" para "none" depois de fazer os ajustes no sidenavbar
+    <SideNav style={{ display: showNav ? 'initial' : 'inline' }}> 
       <div className="SideNavBox">
 
         <div className="CloseButton">
@@ -30,20 +31,24 @@ const SideNavBar = ({showNav, setShowNav}) => {
 
         <div className="skillList">
 
-          <div className="skillList-item"> Javascript
-            <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={66} />
-          </div>
-
-          <div className="skillList-item"> SQL
+          <div className="skillList-item">
+            <h4>JS</h4>
             <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={80} />
           </div>
 
-          <div className="skillList-item"> SQL
-            <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={80} />
+          <div className="skillList-item">
+            <h4>SQL</h4>
+            <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={92} />
           </div>
 
-          <div className="skillList-item"> SQL
-            <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={80} />
+          <div className="skillList-item">
+            <h4>SQL</h4>
+            <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={60} />
+          </div>
+
+          <div className="skillList-item">
+            <h4>SQL</h4>
+            <ProgressBar key={1} labelcolor={'black'} fillcolor={'#c9c8c5'} bgcolor={'#e00025'} completed={30} />
           </div>
 
         </div>
