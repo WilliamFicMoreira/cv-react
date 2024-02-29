@@ -21,17 +21,28 @@ const SideNav = styled.nav`
     flex-flow: column nowrap;
     align-content: flex-start;
   }
+  .SideNavTitle {
+    display: flex;
+    justify-content: center;
+  }
 
-  .persona-image {
-    max-height: 25rem;
-    max-width: 30rem;
-    margin-left: 2rem;
+  .SideNavPersona {
+    margin: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 45%;
+      height: 45%;
+      /* max-height: 25rem;
+      max-width: 30rem; */
+      /* margin: 1rem 1rem;   */
+    }
   }
 
   .skillList {
     padding: 0.5rem;
     background-color: #deddd9;
-    width: 75%;
+    width: 85%;
     color: black;
     font-weight: 700;
   }
@@ -39,25 +50,53 @@ const SideNav = styled.nav`
   .skillList-item {
     margin: 0;
     padding: 0;
-    display:flex;
+    display: flex;
     align-items: center;
 
-    h4{
+    h4 {
       margin: 0.1rem;
     }
   }
 
   .CloseButton {
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    top: 0.4rem;
+    right: 0.4rem;
+    
+    .CloseBtn {
+      width: 40px;
+      height: 40px;
+      background-color: lightgray;
+      font-size: 24px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+  
+      :hover {
+        background-color: red;
+        color: black;
+        transition-delay: 70ms;
+        transition-property: transform;
+      }
+  
+      :active {
+        background-color: darkred;
+        color: black;
+        transition-delay: 70ms;
+        transition-property: transform;
+      }
+    }
+  
+    .CloseIcon {
+      line-height: 1;
+    }
   }
+
 
   .itemsList {
   }
-
 
   /* Scrollbar */
 
