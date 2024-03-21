@@ -19,7 +19,14 @@ const SideNavBar = ({ showNav, setShowNav }) => {
         </div>
 
         <div className="SideNavPersona">
-          <img src={Persona} alt="teste" />
+          <div className="SideNavPersonaTitle">
+            <h3>Arcana: "O Carro"</h3>
+            <h5>Nome: William</h5>
+            <h5>Características: Motivação, força de vontade e honestidade que impulsionam o progresso contínuo do indivíduo.</h5>
+          </div>
+
+          <img src={Persona} alt="William Persona" />
+
         </div>
 
         <div className="skillList">

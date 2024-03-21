@@ -29,7 +29,17 @@ const SideNav = styled.nav`
   .SideNavPersona {
     margin: 1rem 1rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    .SideNavPersonaTitle{
+      display:flex;
+      h3{
+        margin: 0 0;
+      }
+      h5{
+        margin: 1rem 2rem;
+      }
+    }
     img {
       width: 45%;
       height: 45%;
