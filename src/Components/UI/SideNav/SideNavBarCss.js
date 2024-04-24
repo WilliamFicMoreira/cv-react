@@ -31,8 +31,10 @@ const SideNav = styled.nav`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     .SideNavPersonaTitle{
       display:flex;
+      flex-direction: column;
       h3{
         margin: 0 0;
       }
